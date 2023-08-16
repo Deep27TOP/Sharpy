@@ -7,7 +7,7 @@ function processing(stay) {
   let date = document.getElementById("date").value;
   let time = document.getElementById("time").value;
 
-  console.log("Name: ", name);
+  console.log("Name ", name);
   console.log("Email:", email);
   console.log("Phone Number:", phone);
   console.log("Date:", date);
