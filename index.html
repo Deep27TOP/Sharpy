@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharpener Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="details">
+        <div class="header">
+        <h3>BOOK A CALL</h3>
+        <p> Schedule a call and our representative will call you within 1 hour of the scheduled time</p>
+        </div>
+    <form id="format"action="###" method="@@@">
+        <label for="name">*Your Name: </label>
+        <input type="text" id="name" placeholder="First and Last Name" name="name" minlength="3" maxlength="25" required >
+       
+        <label for="email">*Your Email:</label>
+        <input type="email" id="email" placeholder="username@xyz.com" name="email" minlength="10" maxlength="25" required>
+
+        <label for="phone">*Phone Number: </label>
+        <input type="tel" id='phone' name="phone" placeholder="Regsitered Mobile Number" minlength="10" maxlength="10" required>
+
+        <label for="date">*Date for Call: </label>
+        <input type="date" id="date" name="date" placeholder="Preferred Date" required>
+        
+        <label for="time">Time Slot: </label>
+        <input type="time" id="time" name="time" placeholder="Preferred Time">
+        
+        <button id="submit" type="submit">BOOK YOUR CALL</button>
+    </form>
+    </div>
+
+    <script  src="./app.js"></script>
+</body>
+</html>
